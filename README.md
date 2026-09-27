@@ -49,4 +49,7 @@ npm run build
 
 ## 🌐 Deployment
 
-Configured for zero-config automatic deployment on **Vercel**.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgitmanhimanshu%2Fcontext-firewall)
+
+Configured for zero-config automatic continuous deployment on **Vercel** via GitHub integration. Every commit pushed to `main` automatically triggers an optimized production deployment.
+
