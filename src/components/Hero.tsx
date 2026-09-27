@@ -90,6 +90,10 @@ export const Hero: React.FC<HeroProps> = ({ onOpenWaitlist }) => {
             <span className="w-2 h-2 rounded-full bg-emerald-400/80" />
             <span>Sub-millisecond Pre-prompt Pipeline</span>
           </div>
+          <div className="flex items-center gap-2">
+            <span className="w-2 h-2 rounded-full bg-cyan-400/80 shadow-glow-cyan" />
+            <span className="text-cyan-400/90 font-semibold">~90% LLM API Token Cost Savings</span>
+          </div>
         </motion.div>
       </div>
     </section>

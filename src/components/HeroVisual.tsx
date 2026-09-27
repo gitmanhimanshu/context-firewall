@@ -253,7 +253,7 @@ export const HeroVisual: React.FC = () => {
                   </div>
                 </div>
                 <div className="text-right">
-                  <div className="text-[10px] uppercase font-mono tracking-wider text-emerald-400 font-bold">Reduction</div>
+                  <div className="text-[10px] uppercase font-mono tracking-wider text-emerald-400 font-bold">Context &amp; Cost Cut</div>
                   <span className="text-xl sm:text-2xl font-extrabold font-mono text-emerald-300">
                     91.5%
                   </span>
@@ -322,7 +322,7 @@ export const HeroVisual: React.FC = () => {
               </span>
               <span className="text-gray-600">→</span>
               <span className="px-2.5 py-1 rounded bg-emerald-500/10 text-emerald-300 border border-emerald-500/20 font-bold">
-                91.5% CONTEXT REDUCTION
+                91.5% CONTEXT &amp; API COST REDUCTION
               </span>
             </div>
 

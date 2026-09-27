@@ -13,10 +13,10 @@ export const WhyItMatters: React.FC = () => {
       glow: 'group-hover:shadow-[0_0_30px_-5px_rgba(59,130,246,0.3)]',
     },
     {
-      title: 'Lower Context Load',
+      title: 'Lower Context Load & Cost',
       icon: Layers,
-      summary: 'Send only useful information.',
-      details: 'Keeps total token volume compact so models process prompts faster, avoid context saturation, and preserve token budgets.',
+      summary: 'Send only useful information. Slash API bills.',
+      details: 'Keeps total token volume compact so models process prompts faster, avoid context saturation, and slash LLM API token spend by up to ~90%.',
       accent: 'border-violet-500/20 hover:border-violet-400/50 group-hover:text-violet-400',
       glow: 'group-hover:shadow-[0_0_30px_-5px_rgba(139,92,246,0.3)]',
     },

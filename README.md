@@ -9,13 +9,14 @@ Context Firewall is a futuristic developer infrastructure concept designed to so
 ## ⚡ Concept Overview
 
 ```
-78,762 INPUT TOKENS  ──►  [ CONTEXT FIREWALL ]  ──►  6,658 RELEVANT TOKENS  ──►  91.5% CONTEXT REDUCTION
+78,762 INPUT TOKENS  ──►  [ CONTEXT FIREWALL ]  ──►  6,658 RELEVANT TOKENS  ──►  91.5% TOKEN & COST REDUCTION
 ```
 
 - **Semantic Analysis**: AST & active call-graph dependency mapping
 - **Relevance Detection**: Prunes outdated conversations and abandoned solutions
 - **Intelligent Filtering**: Strips voluminous terminal logs and stale stack traces
 - **Token Compression**: High-density semantic representations delivered with low latency
+- **Massive Cost Savings**: Slashes LLM API token spend by up to ~90% per agent turn
 
 *Note: This repository contains the teaser landing page frontend. The underlying engine is in early concept design and coming soon.*
 

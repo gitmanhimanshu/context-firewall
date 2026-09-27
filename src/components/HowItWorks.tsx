@@ -56,7 +56,7 @@ export const HowItWorks: React.FC = () => {
       description: 'Only the most relevant, distilled context is structured and passed to the downstream AI coding agent.',
       items: [
         { name: 'High-Density Tokens', icon: Bot, note: 'Maximized signal-to-noise ratio' },
-        { name: 'Preserved Call Hierarchy', icon: Bot, note: 'Clean interfaces without distraction' },
+        { name: 'Up to 90% Cost Savings', icon: Bot, note: 'Drastically lowers monthly LLM API bills' },
         { name: 'Instant Retrieval Speed', icon: Bot, note: 'Near zero latency context delivery' },
         { name: 'Hallucination Defense', icon: Bot, note: 'Zero outdated assumptions passed' },
       ],
@@ -118,7 +118,7 @@ export const HowItWorks: React.FC = () => {
               <div className="text-base font-bold text-white font-mono">Relevant Context</div>
               <div className="text-xs text-cyan-200/80 mt-1">Semantic extraction only</div>
               <div className="mt-2 text-[11px] font-mono text-emerald-300 bg-emerald-950/50 py-0.5 rounded border border-emerald-500/30">
-                -91.5% Token Reduction
+                -91.5% Token &amp; Cost Reduction
               </div>
             </div>
 
