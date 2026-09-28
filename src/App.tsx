@@ -3,6 +3,7 @@ import { Navbar } from './components/Navbar'
 import { Hero } from './components/Hero'
 import { HeroVisual } from './components/HeroVisual'
 import { HowItWorks } from './components/HowItWorks'
+import { ProxyEngine } from './components/ProxyEngine'
 import { WhyItMatters } from './components/WhyItMatters'
 import { ComingSoon } from './components/ComingSoon'
 import { Footer } from './components/Footer'
@@ -24,6 +25,7 @@ export default function App() {
         <Hero onOpenWaitlist={() => setWaitlistOpen(true)} />
         <HeroVisual />
         <HowItWorks />
+        <ProxyEngine />
         <WhyItMatters />
         <ComingSoon onOpenWaitlist={() => setWaitlistOpen(true)} />
       </main>

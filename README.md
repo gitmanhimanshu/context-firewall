@@ -2,27 +2,59 @@
 
 > **AI Coding Agents Don't Need More Context. They Need Better Context.**
 
-Context Firewall is a futuristic developer infrastructure concept designed to solve the "Too Much Context" bottleneck in autonomous AI coding systems. By intelligently filtering noise, pruning dead execution traces, and distilling high-signal semantic representations, Context Firewall reduces prompt bloat and prevents attention drift.
+Context Firewall is a developer infrastructure middleware designed to solve the "Too Much Context" bottleneck in autonomous AI coding systems. By intelligently filtering noise, pruning dead execution traces, and distilling high-signal semantic representations, Context Firewall slashes 75% to 90% of token volume and API costs while eliminating hallucination triggers.
 
 ---
 
-## ⚡ Concept Overview
+## ⚡ Architecture & Open Source Python Proxy
+
+Context Firewall is powered by an open-source, local FastAPI reverse proxy engine:
+
+🔗 **Proxy Repository**: [https://github.com/gitmanhimanshu/jev-context-firewall](https://github.com/gitmanhimanshu/jev-context-firewall)
 
 ```
-78,762 INPUT TOKENS  ──►  [ CONTEXT FIREWALL ]  ──►  6,658 RELEVANT TOKENS  ──►  91.5% TOKEN & COST REDUCTION
+[ AI IDE (Cursor / Trae / Cline) ]
+                 │
+                 ▼
+[ Jev Context Firewall (127.0.0.1:8192) ]
+  ├─ OpenJev 6D Cognitive Evaluation
+  ├─ Causal Consensus Pruning
+  ├─ Secret & PII Sanitizer
+  └─ Live Dashboard Telemetry (:8192/dashboard)
+                 │
+                 ▼
+[ Upstream LLMs (Anthropic Claude / OpenAI GPT-4o / Google Gemini) ]
+  (75%–90% Tokens & Costs Saved)
 ```
 
-- **Semantic Analysis**: AST & active call-graph dependency mapping
-- **Relevance Detection**: Prunes outdated conversations and abandoned solutions
-- **Intelligent Filtering**: Strips voluminous terminal logs and stale stack traces
-- **Token Compression**: High-density semantic representations delivered with low latency
-- **Massive Cost Savings**: Slashes LLM API token spend by up to ~90% per agent turn
+### Quickstart Local Proxy
 
-*Note: This repository contains the teaser landing page frontend. The underlying engine is in early concept design and coming soon.*
+```bash
+# Clone the open-source proxy
+git clone https://github.com/gitmanhimanshu/jev-context-firewall.git
+cd jev-context-firewall
+
+# Install dependencies & run proxy
+pip install -r requirements.txt
+python main.py
+```
+
+- Local Proxy: `http://127.0.0.1:8192`
+- Telemetry Dashboard: `http://127.0.0.1:8192/dashboard`
 
 ---
 
-## 🛠 Tech Stack
+## 👨‍💻 Developer & Manager
+
+- **Author & Maintainer:** **Himanshu Yadav**
+- **GitHub:** [gitmanhimanshu](https://github.com/gitmanhimanshu)
+- **LinkedIn:** [Himanshu Yadav](https://www.linkedin.com/in/himanshu-yadav-5ba28921b/)
+- **Contact:** [himanshuyada70@gmail.com](mailto:himanshuyada70@gmail.com)
+- **Ecosystem:** Creator of [Setu (Model Context Protocol)](https://setu.mimamsa.dev) and [jev-context-firewall](https://github.com/gitmanhimanshu/jev-context-firewall)
+
+---
+
+## 🛠 Frontend Tech Stack
 
 - **React 19**
 - **TypeScript**
@@ -33,7 +65,7 @@ Context Firewall is a futuristic developer infrastructure concept designed to so
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Running Frontend Locally
 
 ```bash
 # Install dependencies
@@ -50,7 +82,6 @@ npm run build
 
 ## 🌐 Deployment
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fgitmanhimanshu%2Fcontext-firewall)
+Live Website: [https://context-firewall.vercel.app/](https://context-firewall.vercel.app/)
 
-Configured for zero-config automatic continuous deployment on **Vercel** via GitHub integration. Every commit pushed to `main` automatically triggers an optimized production deployment.
-
+Continuous deployment on **Vercel** via GitHub integration (`gitmanhimanshu/context-firewall`).
